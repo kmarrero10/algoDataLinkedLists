@@ -1,13 +1,4 @@
-package com.company;
-
-import java.util.concurrent.atomic.AtomicLongArray;
-
-public class Main {
-
-    public static void main(String[] args) {
-	// write your code here
-    }
-}
+package linkedLists;
 
 class Node<T extends Comparable<T>>{
     private T data;
@@ -36,4 +27,3 @@ class Node<T extends Comparable<T>>{
     }
 
 }
-

@@ -1,4 +1,4 @@
-package com.company;
+package linkedLists;
 
 
 public class LinkedList<T extends Comparable<T>> implements Cloneable {
