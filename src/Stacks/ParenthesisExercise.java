@@ -16,7 +16,7 @@ public class ParenthesisExercise {
         matchingParenMap.put('}', '{');
         openingParenSet.addAll(matchingParenMap.values());
     }
-
+    //Parenthesis validation using Map, Set, and Stack
     public static boolean hasMatchingParens(String input) {
 
         try{
